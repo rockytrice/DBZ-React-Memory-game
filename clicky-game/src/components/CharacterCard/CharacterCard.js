@@ -5,7 +5,7 @@ import "./CharacterCard.css";
   // <Container>
     
       
-        <div className="card">
+        <div className="card col-md-3">
             <div className="card-img">
             <div className="img-container">
               <img className = "click-item" alt={props.name} src={props.image} />
