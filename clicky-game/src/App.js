@@ -5,7 +5,7 @@ import characters from "./characters.json";
 import './App.css';
 
 class App extends Component {
-  set = {
+  state = {
     characters
   };
 
@@ -16,6 +16,7 @@ class App extends Component {
         <CharacterCard
           id={character.id}
           image={character.image}
+          key={character.id}
         />
 
       ))}

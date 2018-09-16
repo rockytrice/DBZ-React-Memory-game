@@ -1,24 +1,52 @@
 [
+    
     {
         "id":1,
-        "iamge":"./images/God Goku.png"
-    },
-    {
-        "id":2,
         "image":"https://vignette.wikia.nocookie.net/dbz-dokkanbattle/images/f/f9/Gohandbz.png/revision/latest?cb=20170703092650"
     },
     {
+        "id":2,
+        "image":"https://vignette.wikia.nocookie.net/epicrapbattlesofhistory/images/4/4d/Goku_by_spongeboss-d35orzj.png/revision/latest?cb=20140210225834"
+    },
+    {
         "id":3,
-        "image":"https://qph.fs.quoracdn.net/main-qimg-3fa115ee9f73d32c1639afe48d6e7c47"
+        "image":"https://i.skyrock.net/3091/56573091/pics/3060487937_1_3_seOQSkdf.png"
     },
     {
         "id":4,
-        "image":"./images/cell.png"
+        "image":"https://vignette.wikia.nocookie.net/ultradragonball/images/c/cf/Frieza_Form_4_by_Yholl.png/revision/latest?cb=20111205053613"
     },
     {
         "id":5,
-        "image":"./images/piccolo__1_by_aubreiprince-dbadhfh"
+        "image":"https://mbtskoudsalg.com/images/imagenes-png-hd-7.png"
+    },
+    {
+        "id":6,
+        "image":"https://qph.fs.quoracdn.net/main-qimg-b2758ef8f5cfd7adfe4cdf83eede761d"
+    },
+    {
+        "id":7,
+        "image":"http://1.bp.blogspot.com/-AztsF7pYU08/UNHw4eGufhI/AAAAAAAAQ7I/FgNUixTUmRg/s1600/captain_ginyu_by_jeanpaul007-d3ijgz7.png"
+    },
+    
+    {
+        "id":8,
+        "image":"https://vignette.wikia.nocookie.net/doblaje/images/3/32/BuuGordo_Universo7.png/revision/latest?cb=20180829002610&path-prefix=es"
+    },
+    {
+        "id":9,
+        "image":"https://qph.fs.quoracdn.net/main-qimg-0b40189983c38fe6ca4e06cd1c7dbc59"
+    },
+    {
+        "id":10,
+        "image":"https://img.fireden.net/v/image/1466/16/1466169645042.png"
+    },
+    {
+        "id":11,
+        "image":"https://vignette.wikia.nocookie.net/dragon-ballz/images/3/3a/Cooler_%282%29.png/revision/latest?cb=20120920003144"
+    },
+    {
+        "id":12,
+        "image":"https://i.pinimg.com/originals/80/c4/9c/80c49c4478c7598545d38fce1af232d1.png"
     }
-    
-    
     ]
