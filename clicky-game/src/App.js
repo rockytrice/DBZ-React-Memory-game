@@ -1,21 +1,29 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import CharacterCard from "./components/CharacterCard";
+import Wrapper from "./components/Wrapper";
+import characters from "./characters.json";
 import './App.css';
 
 class App extends Component {
+  set = {
+    characters
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Wrapper>
+      {this.state.characters.map(character => (
+        <CharacterCard
+          id={character.id}
+          image={character.image}
+        />
+
+      ))}
+          
+       </Wrapper>
     );
   }
+  
 }
 
 export default App;
