@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
+import Navbar from "./components/Navbar";
 import './App.css';
 
 class App extends Component {
@@ -11,7 +12,9 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <React.Fragment>
+      <Navbar />
+       <Wrapper>
       {this.state.characters.map(character => (
         <CharacterCard
           id={character.id}
@@ -22,6 +25,7 @@ class App extends Component {
       ))}
           
        </Wrapper>
+      </React.Fragment>
     );
   }
   
