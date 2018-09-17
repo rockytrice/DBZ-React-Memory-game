@@ -18,35 +18,43 @@
     },
     {
         "id":5,
-        "image":"https://mbtskoudsalg.com/images/imagenes-png-hd-7.png"
+        "image":"https://mbtskoudsalg.com/images/imagenes-png-hd-7.png",
+        "clicked":false
     },
     {
         "id":6,
-        "image":"https://qph.fs.quoracdn.net/main-qimg-b2758ef8f5cfd7adfe4cdf83eede761d"
+        "image":"https://qph.fs.quoracdn.net/main-qimg-b2758ef8f5cfd7adfe4cdf83eede761d",
+        "clicked":false
     },
     {
         "id":7,
-        "image":"http://1.bp.blogspot.com/-AztsF7pYU08/UNHw4eGufhI/AAAAAAAAQ7I/FgNUixTUmRg/s1600/captain_ginyu_by_jeanpaul007-d3ijgz7.png"
+        "image":"http://1.bp.blogspot.com/-AztsF7pYU08/UNHw4eGufhI/AAAAAAAAQ7I/FgNUixTUmRg/s1600/captain_ginyu_by_jeanpaul007-d3ijgz7.png",
+        "clicked":false
     },
     
     {
         "id":8,
-        "image":"https://vignette.wikia.nocookie.net/doblaje/images/3/32/BuuGordo_Universo7.png/revision/latest?cb=20180829002610&path-prefix=es"
+        "image":"https://vignette.wikia.nocookie.net/doblaje/images/3/32/BuuGordo_Universo7.png/revision/latest?cb=20180829002610&path-prefix=es",
+        "clicked":false
     },
     {
         "id":9,
-        "image":"https://qph.fs.quoracdn.net/main-qimg-0b40189983c38fe6ca4e06cd1c7dbc59"
+        "image":"https://qph.fs.quoracdn.net/main-qimg-0b40189983c38fe6ca4e06cd1c7dbc59",
+        "clicked":false
     },
     {
         "id":10,
-        "image":"https://img.fireden.net/v/image/1466/16/1466169645042.png"
+        "image":"https://img.fireden.net/v/image/1466/16/1466169645042.png",
+        "clicked":false
     },
     {
         "id":11,
-        "image":"https://vignette.wikia.nocookie.net/dragon-ballz/images/3/3a/Cooler_%282%29.png/revision/latest?cb=20120920003144"
+        "image":"https://vignette.wikia.nocookie.net/dragon-ballz/images/3/3a/Cooler_%282%29.png/revision/latest?cb=20120920003144",
+        "clicked":false
     },
     {
         "id":12,
-        "image":"https://i.pinimg.com/originals/80/c4/9c/80c49c4478c7598545d38fce1af232d1.png"
+        "image":"https://i.pinimg.com/originals/80/c4/9c/80c49c4478c7598545d38fce1af232d1.png",
+        "clicked":false
     }
     ]

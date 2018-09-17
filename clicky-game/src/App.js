@@ -3,6 +3,7 @@ import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
 import characters from "./characters.json";
 import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
 import './App.css';
 
 class App extends Component {
@@ -14,6 +15,7 @@ class App extends Component {
     return (
       <React.Fragment>
       <Navbar />
+      <Jumbotron />
        <Wrapper>
       {this.state.characters.map(character => (
         <CharacterCard
