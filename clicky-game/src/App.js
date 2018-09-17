@@ -30,8 +30,10 @@ handleIncrement = () => {
   console.log("new score" + newScore);
   // We always use the setState method to update a component's state
   this.setState({ score: newScore });
-};
-
+  if (newScore >= this.state.topScore) {
+    this.setState({ topScore: newScore });
+    };
+  }
 
 // function for shuffling the cards 
  shuffleArray = (array) => {
