@@ -14,7 +14,7 @@ class App extends Component {
     score : 0,
     topScore: 0
   };
-
+// click listener for the id of the card being clicked
 clickHandle = id => {
   console.log("clicked");
   if (this.state.clicked.indexOf(id) === -1) {
@@ -48,27 +48,15 @@ shuffleCard =() => {
 };
 
 // =====================================================================================================================
+// reset function for the score, and if the image has been clicked
   reset =() =>{
    this.setState({
       score:0,
       topScore:this.state.topScore,
       clicked:[],
   })
-  this.shuffleCard();
+
 };
-
-// // function for shuffling the cards 
-//  shuffleArray = (array) => {
-//   let i = array.length - 1;
-//   for (; i > 0; i--) {
-//     const j = Math.floor(Math.random() * (i + 1));
-//     const temp = array[i];
-//     array[i] = array[j];
-//     array[j] = temp;
-//   }
-//   return array;
-// }
-
 
 
   render() {

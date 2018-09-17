@@ -7,11 +7,13 @@
     text-align: center;
   }
   h1{
-    font-family: 'Erica One', cursive;
-    color: blanchedalmond;
+    font-family: Saiyan Sans;
+    color: red;
+    text-shadow: 2px 2px yellow;
   }
   p.lead{
-    font-family: 'Erica One', cursive;
-    color: blanchedalmond;
-    font-size: 20px;
+    font-family: Saiyan Sans;
+    color: yellow;
+    font-size: 50px;
+    text-shadow: 2px 2px #FF0000;
   }

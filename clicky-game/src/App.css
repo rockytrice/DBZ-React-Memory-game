@@ -14,3 +14,13 @@ footer{
     color: white;
     text-align: center;
 }
+li{
+  font-family: Saiyan Sans;
+    color: blanchedalmond;
+    font-size: 40px;
+list-style: none;
+margin-bottom: 4px;
+padding-top: 27px;
+color: yellow;
+text-shadow: 2px 2px #FF0000;
+}
