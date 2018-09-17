@@ -1,4 +1,17 @@
 .jumbotron{
     position: relative;
     z-index:-101;
+    background-image: url("https://img.elo7.com.br/product/zoom/1C5541D/painel-festa-2x1m-dragon-ball-super-decoracao-de-festa-infantil.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  h1{
+    font-family: 'Erica One', cursive;
+    color: blanchedalmond;
+  }
+  p.lead{
+    font-family: 'Erica One', cursive;
+    color: blanchedalmond;
+    font-size: 20px;
   }

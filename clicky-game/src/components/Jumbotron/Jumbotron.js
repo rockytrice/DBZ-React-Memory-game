@@ -13,8 +13,8 @@ const jumbotron = () => {
             <source src={Dragonball} type="video/mp4" /> 
             </video> */}
         <Container fluid>
-          <h1 className="display-3">Fluid jumbotron</h1>
-          <p className="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1 className="display-3">DBZ Memory Game</h1>
+          <p className="lead">Click on an image to earn points, but don't click on an image more than once!!if you do you lose!!</p>
         </Container>
       </Jumbotron>
     </div>
