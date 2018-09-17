@@ -16,17 +16,22 @@ class App extends Component {
 
 clickHandle = id => {
   console.log("clicked");
-  this.setState({ clicked: this.state.clicked.concat(id) });
+  if (this.state.clicked.indexOf(id) === -1) {
+    console.log("increment");
+    this.handleIncrement();  
+    this.setState({ clicked: this.state.clicked.concat(id) })
+  }else{
+    console.log("has already been clicked");
+  } 
 }
 // handleIncrement increases this.state.count by 1
 handleIncrement = () => {
-  const newScore = this.state.score + 1
-  console.log("score is" + newScore);
+  const newScore = this.state.score + 1;
+  console.log("new score" + newScore);
   // We always use the setState method to update a component's state
-  this.newState({
-    score:newScore
-  })
+  this.setState({ score: newScore });
 };
+
 
 // function for shuffling the cards 
  shuffleArray = (array) => {
