@@ -2,20 +2,16 @@ import React from "react";
 import "./CharacterCard.css";
 // import { Container, Col } from 'reactstrap';
  const CharacterCard = props => (
-  // <Container>
     
       
-        <div className="card col-md-3">
-            <div className="card-img">
+        <div className="card col-md-3"
+            value={props.id}
+            onClick={() =>props.clickHandle(props.id)}>
             <div className="img-container">
               <img className = "click-item" alt={props.name} src={props.image} />
               
             </div>
               
-            </div>
         </div>
-      
-    
-//  </Container>
 );
     export default CharacterCard;

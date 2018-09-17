@@ -8,8 +8,16 @@ import './App.css';
 
 class App extends Component {
   state = {
-    characters
+    characters,
+    clicked: [],
+    score :0,
+    topScore :0
   };
+
+clickHandle = id => {
+  console.log("clicked");
+  this.setState({ clicked: this.state.clicked.concat(id) });
+}
 
   render() {
     return (
@@ -22,6 +30,7 @@ class App extends Component {
           id={character.id}
           image={character.image}
           key={character.id}
+          clickHandle={this.clickHandle}
         />
 
       ))}
