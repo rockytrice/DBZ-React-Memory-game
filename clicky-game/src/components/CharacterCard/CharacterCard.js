@@ -4,7 +4,7 @@ import "./CharacterCard.css";
  const CharacterCard = props => (
     
       
-        <div className="card col-md-3"
+        <div className="img"
             value={props.id}
             onClick={() =>props.clickHandle(props.id)}>
             <div className="img-container">

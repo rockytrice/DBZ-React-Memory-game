@@ -45,9 +45,9 @@ handleIncrement = () => {
   render() {
     return (
       <React.Fragment>
-      <Navbar> 
-        Score={this.state.score}
-      </Navbar>
+      <Navbar 
+      
+      />
       <Jumbotron />
        <Wrapper>
       {this.state.characters.map(character => (

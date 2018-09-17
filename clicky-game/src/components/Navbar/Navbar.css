@@ -1,6 +1,7 @@
 .navbar-brand{
     background: transparent
 }
-.bg-light{
-    background-color: transparent!important;
+nav.bg-light{
+    background-color: black!important;
+    position: sticky;
 }

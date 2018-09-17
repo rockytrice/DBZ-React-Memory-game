@@ -2,13 +2,13 @@ import React from "react";
 import { Jumbotron, Container } from 'reactstrap';
 import "./Jumbotron.css";
 // import Dragonball from "./Dragonball.mp4";
-import VideoBackground from "./Video";
+// import VideoBackground from "./Video";
 
 const jumbotron = () => {
   return (
     <div>
       <Jumbotron fluid>
-        <VideoBackground />
+        {/* <VideoBackground /> */}
          {/* <video className="video-background"autoPlay loop muted> 
             <source src={Dragonball} type="video/mp4" /> 
             </video> */}
