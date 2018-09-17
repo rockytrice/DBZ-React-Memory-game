@@ -1,7 +1,7 @@
 
-  .img-container{
+  /* .img-container{
     width: 170px;
-  }
+  } */
   .card {
     background:transparent;
     border-radius: 2px;
@@ -25,7 +25,7 @@
   }
   
   .img-container {
-    width: 256px;
+    width: 293px;
 }
   /* @media (min-width: 768px){
 .col-md-3 {

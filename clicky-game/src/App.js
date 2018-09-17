@@ -44,9 +44,10 @@ handleIncrement = () => {
 
   render() {
     return (
-      <React.Fragment>
-      <Navbar 
       
+     <div>      
+      <Navbar 
+
       />
       <Jumbotron />
        <Wrapper>
@@ -59,9 +60,19 @@ handleIncrement = () => {
         />
 
       ))}
-          
+             
        </Wrapper>
-      </React.Fragment>
+       <footer>
+       <ul>
+         <li>
+         Score= {this.state.score} |
+          Top Score= {this.state.topScore}
+         </li>
+       </ul>
+        </footer> 
+     </div>
+      
+      
     );
   }
   
