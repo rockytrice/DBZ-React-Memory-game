@@ -9,5 +9,7 @@
 <p> Once the user's score is reset after an incorrect guess, the game restarts.</p>
 
 
+to play the game check out this live link here => https://rockytrice.github.io/DBZ-React-Memory-game/
+
 
 [![screencapture-localhost-3000-2018-09-17-19_19_39.png](https://i.postimg.cc/wxcwcvhg/screencapture-localhost-3000-2018-09-17-19_19_39.png)](https://postimg.cc/0rjG99WB)
