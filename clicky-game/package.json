@@ -1,10 +1,10 @@
 {
-  "homepage": "https://github.com/rockytrice/DBZ-React-Memory-game",
+  
   "name": "clicky-game",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/rockytrice/DBZ-React-Memory-game",
   "dependencies": {
-    "gh-pages": "^2.0.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5",
